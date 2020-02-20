@@ -1,0 +1,9 @@
+.Principal {
+    background-color: #64417D;
+    min-height: 100vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
