@@ -1,0 +1,9 @@
+.previsao {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 90%;
+    align-items: center;
+    color: white;
+}

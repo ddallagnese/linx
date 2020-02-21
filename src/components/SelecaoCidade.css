@@ -1,0 +1,18 @@
+.selecao {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 90%;
+    height: 35%;
+    padding-top: 30px;
+}
+
+.bem-vindo {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.selecione {
+    font-size: 25px;
+    font-weight: bold;
+}

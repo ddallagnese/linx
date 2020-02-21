@@ -1,23 +1,85 @@
 .Hoje {
     background-color: white;
-    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* color: white; */
     flex-direction: column;
     border-radius: 20px;
-    padding: 20px;
-    min-width: fit-content;
+    padding: 1%;
     width: 35%;
+    height: 90%;
 }
 
-img {
-    max-width: 100%;
-    max-height: auto;
+.superior {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.Imagem {
-    height: 50px;
-    width: 50px;
+.dia-cidade {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.dia {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.cidade {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top-right-image {
+    height: 70px;
+    width: 70px;
+}
+
+.center {
+    height: 50%;
+    align-items: center;
+    display: grid;
+    position: relative;
+}   
+
+.linha_temperatura {
+    position: absolute;
+    top: 0;
+    color: #000;
+    font-size: 130px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.unidade {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.atual {
+    position: absolute;
+    top: 50%;
+    color: #64417D;
+    font-size: 18px;
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 14%;
+    justify-content: space-between;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.inferior {
+    height: 35%;
+    color: #64417D;
+    flex-direction: column;
 }

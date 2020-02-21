@@ -1,0 +1,18 @@
+.linha {
+    display: flex;
+    justify-content: space-between;
+    height: 14%;
+    min-height: fit-content;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    color: darkgray;
+    font-weight: bold;
+}
